@@ -1,17 +1,11 @@
-﻿$experimental-support-for-svg: true;
+$experimental-support-for-svg: true;
 
 @import "compass";
 @import "tuts-1.0/layout";
-
-
 
 $tuts-color-base: #ddd;
 $tuts-border-width:10px;
 
 .tuts-container {
   @include tuts-container(#CCCCCC, medium);
-}
-
-.tuts-container-red {
-  @include tuts-container(#FFFEFE, medium);
 }
